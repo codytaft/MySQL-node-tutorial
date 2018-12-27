@@ -2,7 +2,7 @@ module.exports = {
   client: 'mysql',
   connection: {
     user: 'root',
-    password: 'Wkpkss-1983',
+    password: process.env.MYSQL_PASSWORD,
     database: 'tutorial_node_database'
   }
 };
