@@ -1,3 +1,5 @@
+require('dotenv').load();
+console.log(process.env.MYSQL_PASSWORD);
 module.exports = {
   client: 'mysql',
   connection: {
